@@ -8,16 +8,15 @@ oriented = function(e) {
             compassHeading = e.alpha;
         }
         
-<<<<<<< HEAD
-        if(compassHeading > 315 || compassHeading < 45) {
-=======
+
+
            if(compassHeading > 315 || compassHeading < 45) {
->>>>>>> c19a0140a60eece6d7cc25d3781836318d354dab
+
                 text_area.textContent = compassHeading;
         }
 
         if(compassHeading >= 45 && compassHeading < 135) {
-                text_area.textContent = "east 5";
+                text_area.textContent = "east 6";
         }
 
         if(compassHeading >= 135 && compassHeading < 225) {
@@ -27,11 +26,10 @@ oriented = function(e) {
         if(compassHeading >= 225 && compassHeading < 315) {
                 text_area.textContent = "west 5";
         }
-<<<<<<< HEAD
+
         
         // text_area.textContent = compassHeading;
-=======
->>>>>>> c19a0140a60eece6d7cc25d3781836318d354dab
+
         //calls function to alter content based on heading
        // myOrientation();
     }
